@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Joke extends Component {
   render() {
-    console.log(this.props)
     return (
       <div className="joke">
         <div className="joke-buttons">
-          <span>{this.props.vote}</span>
+          <i className="fas fa-arrow-up" />
+          <span>{this.props.votes}</span>
+          <i className="fas fa-arrow-down" />
         </div>
-        <div className="joke-text">
-          {this.props.text}
-        </div>
+        <div className="joke-text">{this.props.text}</div>
       </div>
     );
   }
