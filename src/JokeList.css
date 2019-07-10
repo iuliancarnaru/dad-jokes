@@ -11,11 +11,8 @@
   align-items: center;
   justify-content: center;
   width: 30%;
-  box-shadow: 
-  
-    0 10px 12px rgba(0,0,0,0.1),
-    inset 0 0 25px #7e57c2;
-    z-index: 2;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1), inset 0 0 25px #7e57c2;
+  z-index: 2;
 }
 
 .jokelist-title {
@@ -34,7 +31,7 @@
 .jokelist-sidebar img {
   width: 50%;
   border-radius: 50%;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
 }
 
 .jokelist-jokes {
@@ -43,5 +40,11 @@
   align-self: center;
   width: 70%;
   overflow: auto;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.jokelist-spinner {
+  color: white;
+  text-align: center;
 }
